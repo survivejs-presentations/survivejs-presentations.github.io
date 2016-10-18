@@ -59,128 +59,31 @@ export default class Presentation extends React.Component {
         <Deck transition={slideTransition} transitionDuration={500}>
           <Slide transition={slideTransition} bgColor="secondary">
             <Heading size={1} fit caps lineHeight={1} textColor="tertiary">
-              Template
+              SurviveJS Presentations
             </Heading>
-          </Slide>
-
-          <Slide transition={slideTransition}>
-            <Heading caps fit size={1}>
-              JavaScript Usage on Sites
-            </Heading>
-            <Markdown>
-          {`
-* 2011 - 38.2%
-* 2013 - 60.4%
-* 2015 - 70.5%
-* 2016 - 73.5%
-* Source: [W3Techs](http://w3techs.com/technologies/history_overview/javascript_library/all/y)
-          `}
-            </Markdown>
-          </Slide>
-
-          <Slide transition={slideTransition}>
-            <Appear fid="1">
-              <Heading size={2} caps fit>
-                Inline JavaScript
-              </Heading>
-            </Appear>
-            <Appear fid="2">
-              <Heading size={2} caps fit textColor="tertiary">
-                AJAX (async)
-              </Heading>
-            </Appear>
-            <Appear fid="3">
-              <Heading size={2} caps fit>
-                Single Page Applications
-              </Heading>
-            </Appear>
-            <Appear fid="3">
-              <Heading size={2} caps fit textColor="tertiary">
-                Universal JavaScript
-              </Heading>
-            </Appear>
-          </Slide>
-
-          <Slide transition={slideTransition} bgColor="black">
-            <BlockQuote>
-              <Quote>Java is to JavaScript as car is to carpet</Quote>
-            </BlockQuote>
-          </Slide>
-
-          <Slide transition={slideTransition}>
-            <Heading caps fit size={1}>
-              Build Tools
-            </Heading>
-            <Layout>
-              <Table>
-                <thead>
-                  <TableRow>
-                    <TableHeaderItem>1st Gen.</TableHeaderItem>
-                    <TableHeaderItem>2nd Gen.</TableHeaderItem>
-                    <TableHeaderItem>3rd Gen.</TableHeaderItem>
-                  </TableRow>
-                </thead>
-                <tbody>
-                  <TableRow>
-                    <TableItem>Make</TableItem>
-                    <TableItem>Grunt</TableItem>
-                    <TableItem>Browserify</TableItem>
-                  </TableRow>
-                  <TableRow>
-                    <TableItem></TableItem>
-                    <TableItem>Gulp</TableItem>
-                    <TableItem>Webpack</TableItem>
-                  </TableRow>
-                  <TableRow>
-                    <TableItem></TableItem>
-                    <TableItem>Broccoli</TableItem>
-                    <TableItem>JSPM</TableItem>
-                  </TableRow>
-                </tbody>
-              </Table>
-            </Layout>
           </Slide>
 
           <Slide transition={slideTransition}>
             <Heading size={1}>
-              The Problem of Template
+              Presentations
             </Heading>
             <List>
-              <Appear><ListItem>Problem 1</ListItem></Appear>
-              <Appear><ListItem>Problem 2</ListItem></Appear>
-              <Appear><ListItem><Link href="https://facebook.github.io/flux/">Flux</Link> - Actions, stores, dispatcher</ListItem></Appear>
+              <Appear><ListItem>Presentation 1</ListItem></Appear>
+              <Appear><ListItem>Presentation 2</ListItem></Appear>
             </List>
           </Slide>
 
           <Slide transition={slideTransition}>
-            <Image src={images.survivejs} margin="40px auto" height="324px" />
-          </Slide>
-
-          <Slide transition={slideTransition}>
-            <Heading size={2}>
-              Solution
-            </Heading>
-          </Slide>
-
-          <Slide transition={slideTransition}>
-            <Heading size={4}>
-              Minimal Demo
-            </Heading>
-            <CodePane
-              lang="jsx"
-              source={require("raw!../examples/demo.jsx")}
-              margin="20px auto"
-            />
-          </Slide>
-
-          <Slide transition={slideTransition}>
             <Heading size={1}>
-              Exercises
+              About Author
             </Heading>
             <List>
-              <Appear><ListItem>Exercise 1</ListItem></Appear>
-              <Appear><ListItem>*Exercise 2</ListItem></Appear>
-              <Appear><ListItem>**Exercise 3</ListItem></Appear>
+              <Appear><ListItem>Juho Vepsäläinen</ListItem></Appear>
+              <Appear><ListItem>Subcontractor gone author (est. 2015)</ListItem></Appear>
+              <Appear><ListItem>Thousands of books sold, growing community</ListItem></Appear>
+              <Appear><ListItem>Academic background (C, Python, JavaScript)</ListItem></Appear>
+              <Appear><ListItem><Link href="http://www.nixtu.info/">nixtu.info</Link>, <Link href="http://survivejs.com/">SurviveJS</Link>, <Link href="http://jster.net/">JSter</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://twitter.com/bebraw"><b>@bebraw</b></Link>, <Link href="https://twitter.com/survivejs"><b>@survivejs</b></Link>, <Link href="https://twitter.com/jsterlibs"><b>@jsterlibs</b></Link></ListItem></Appear>
             </List>
           </Slide>
 
@@ -191,17 +94,6 @@ export default class Presentation extends React.Component {
               </Heading>
             </Link>
             <Image src={images.survivejs} margin="0px auto 40px" height="524px"/>
-          </Slide>
-
-          <Slide transition={slideTransition} bgColor="tertiary">
-            <Heading size={1} caps fit textColor="primary">
-              Made in Finland by
-            </Heading>
-            <Link href="https://twitter.com/bebraw">
-              <Heading caps fit size={2} textColor="secondary">
-                Juho Vepsäläinen
-              </Heading>
-            </Link>
           </Slide>
         </Deck>
       </Spectacle>
