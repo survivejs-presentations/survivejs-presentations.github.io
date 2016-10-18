@@ -81,6 +81,7 @@ export default class Presentation extends React.Component {
               Presentations (legacy)
             </Heading>
             <List>
+              <Appear><ListItem><Link href="https://presentations.survivejs.com/javascript-quo-vadis/">JavaScript - Quo Vadis?</Link></ListItem></Appear>
               <Appear><ListItem><Link href="https://presentations.survivejs.com/frontend-in-2015/">Frontend in 2015</Link></ListItem></Appear>
               <Appear><ListItem><Link href="https://presentations.survivejs.com/training/">SurviveJS React Training</Link> - Split up to smaller presentations earlier</ListItem></Appear>
             </List>
