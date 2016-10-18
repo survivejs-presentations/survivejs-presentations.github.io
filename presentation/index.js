@@ -68,8 +68,20 @@ export default class Presentation extends React.Component {
               Presentations
             </Heading>
             <List>
-              <Appear><ListItem>Presentation 1</ListItem></Appear>
-              <Appear><ListItem>Presentation 2</ListItem></Appear>
+              <Appear><ListItem><Link href="https://survivejs-presentations.github.io/javascript-in-2016/">JavaScript in 2016</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://survivejs-presentations.github.io/react-in-2016/">React in 2016</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://survivejs-presentations.github.io/state-management-in-react/">State management in React</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://survivejs-presentations.github.io/react-api-design/">React API Design - Case Reactabular</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://survivejs-presentations.github.io/how-to-write-a-book-and-survivejs-it/">How to write a book and SurviveJS it</Link></ListItem></Appear>
+            </List>
+          </Slide>
+
+          <Slide transition={slideTransition}>
+            <Heading size={1}>
+              Presentations (legacy)
+            </Heading>
+            <List>
+              <Appear><ListItem><Link href="https://survivejs-presentations.github.io/frontend-in-2015/">Frontend in 2015</Link></ListItem></Appear>
             </List>
           </Slide>
 
