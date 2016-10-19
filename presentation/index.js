@@ -68,11 +68,11 @@ export default class Presentation extends React.Component {
               Presentations
             </Heading>
             <List>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/javascript-in-2016/">JavaScript in 2016</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/state-management-in-react/">State management in React</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/react-api-design/">React API Design - Case Reactabular</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/how-to-write-a-book-and-survivejs-it/">How to write a book and SurviveJS it</Link></ListItem></Appear>
+              <ListItem><Link href="https://presentations.survivejs.com/javascript-in-2016/">JavaScript in 2016</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/state-management-in-react/">State management in React</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/react-api-design/">React API Design - Case Reactabular</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/how-to-write-a-book-and-survivejs-it/">How to write a book and SurviveJS it</Link></ListItem>
             </List>
           </Slide>
 
@@ -81,9 +81,9 @@ export default class Presentation extends React.Component {
               Presentations (legacy)
             </Heading>
             <List>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/javascript-quo-vadis/">JavaScript - Quo Vadis?</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/frontend-in-2015/">Frontend in 2015</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="https://presentations.survivejs.com/training/">SurviveJS React Training</Link> - Split up to smaller presentations earlier</ListItem></Appear>
+              <ListItem><Link href="https://presentations.survivejs.com/javascript-quo-vadis/">JavaScript - Quo Vadis?</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/frontend-in-2015/">Frontend in 2015</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/training/">SurviveJS React Training</Link> - Split up to smaller presentations earlier</ListItem>
             </List>
           </Slide>
 
