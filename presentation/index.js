@@ -65,29 +65,37 @@ export default class Presentation extends React.Component {
 
           <Slide transition={slideTransition}>
             <Heading size={1}>
-              Presentations
+              React Presentations
             </Heading>
             <List>
-              <ListItem><Link href="https://presentations.survivejs.com/javascript-in-2016/">JavaScript in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/state-management-in-react/">State Management in React</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-performance/">React Performance</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-api-design/">React API Design - Case Reactabular</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-compatible-alternatives/">React Compatible Alternatives</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/structuring-react-projects/">Structuring React Projects</Link></ListItem>
+            </List>
+          </Slide>
+
+          <Slide transition={slideTransition}>
+            <Heading size={1}>
+              Other Presentations
+            </Heading>
+            <List>
               <ListItem><Link href="https://presentations.survivejs.com/advanced-webpack/">Advanced Webpack</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/javascript-in-2016/">JavaScript in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/how-to-write-a-book-and-survivejs-it/">How to write a book and SurviveJS it</Link></ListItem>
             </List>
           </Slide>
 
           <Slide transition={slideTransition}>
             <Heading size={1}>
-              Presentations (legacy)
+              Legacy Presentations
             </Heading>
             <List>
-              <ListItem><Link href="https://presentations.survivejs.com/javascript-quo-vadis/">JavaScript - Quo Vadis?</Link></ListItem>
-              <ListItem><Link href="https://presentations.survivejs.com/frontend-in-2015/">Frontend in 2015</Link></ListItem>
-              <ListItem><Link href="https://presentations.survivejs.com/training/">SurviveJS React Training</Link> - Split up to smaller presentations earlier</ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/javascript-quo-vadis/">JavaScript - Quo Vadis?</Link> - A look at the state of JavaScript ecosystem from early 2016</ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/frontend-in-2015/">Frontend in 2015</Link> - A look at the state of frontend in 2015</ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/training/">SurviveJS React Training</Link> - Split up to smaller presentations earlier. Still interesting, though</ListItem>
             </List>
           </Slide>
 
