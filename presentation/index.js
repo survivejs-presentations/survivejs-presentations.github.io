@@ -82,6 +82,7 @@ export default class Presentation extends React.Component {
               Other Presentations
             </Heading>
             <List>
+              <ListItem><Link href="https://presentations.survivejs.com/re-imagining-webpack/">Re-imagining Webpack</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/advanced-webpack/">Advanced Webpack</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/javascript-in-2016/">JavaScript in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/how-to-write-a-book-and-survivejs-it/">How to write a book and SurviveJS it</Link></ListItem>
