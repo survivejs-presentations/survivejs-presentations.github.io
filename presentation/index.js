@@ -79,11 +79,21 @@ export default class Presentation extends React.Component {
 
           <Slide transition={slideTransition}>
             <Heading size={1}>
-              Other Presentations
+              Webpack Presentations
             </Heading>
             <List>
               <ListItem><Link href="https://presentations.survivejs.com/re-imagining-webpack/">Re-imagining Webpack</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/webpack-from-apprentice-to-journeyman/">Webpack - From Apprentice to Journeyman</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/webpack-from-journeyman-to-master/">Webpack - From Journeyman to Master</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/advanced-webpack/">Advanced Webpack</Link></ListItem>
+            </List>
+          </Slide>
+
+          <Slide transition={slideTransition}>
+            <Heading size={1}>
+              Other Presentations
+            </Heading>
+            <List>
               <ListItem><Link href="https://presentations.survivejs.com/javascript-in-2016/">JavaScript in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/how-to-write-a-book-and-survivejs-it/">How to write a book and SurviveJS it</Link></ListItem>
             </List>
