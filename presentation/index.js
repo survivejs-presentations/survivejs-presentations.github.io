@@ -71,6 +71,7 @@ export default class Presentation extends React.Component {
               <ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/state-management-in-react/">State Management in React</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-performance/">React Performance</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/forms-in-react/">Forms in React</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-api-design/">React API Design - Case Reactabular</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-compatible-alternatives/">React Compatible Alternatives</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/structuring-react-projects/">Structuring React Projects</Link></ListItem>
