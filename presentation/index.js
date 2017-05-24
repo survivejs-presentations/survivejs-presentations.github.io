@@ -68,7 +68,7 @@ export default class Presentation extends React.Component {
               React Presentations
             </Heading>
             <List>
-              <ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/react-components/">React Components</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/state-management-in-react/">State Management in React</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/react-performance/">React Performance</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/forms-in-react/">Forms in React</Link></ListItem>
@@ -108,6 +108,7 @@ export default class Presentation extends React.Component {
               <ListItem><Link href="https://presentations.survivejs.com/javascript-quo-vadis/">JavaScript - Quo Vadis?</Link> - A look at the state of JavaScript ecosystem from early 2016</ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/frontend-in-2015/">Frontend in 2015</Link> - A look at the state of frontend in 2015</ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/training/">SurviveJS React Training</Link> - Split up to smaller presentations earlier. Still interesting, though</ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem>
             </List>
           </Slide>
 
