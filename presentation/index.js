@@ -86,7 +86,6 @@ export default class Presentation extends React.Component {
               <ListItem><Link href="https://presentations.survivejs.com/re-imagining-webpack/">Re-imagining Webpack</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/webpack-from-apprentice-to-journeyman/">Webpack - From Apprentice to Journeyman</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/webpack-from-journeyman-to-master/">Webpack - From Journeyman to Master</Link></ListItem>
-              <ListItem><Link href="https://presentations.survivejs.com/advanced-webpack/">Advanced Webpack</Link></ListItem>
             </List>
           </Slide>
 
@@ -111,6 +110,7 @@ export default class Presentation extends React.Component {
               <ListItem><Link href="https://presentations.survivejs.com/react-in-2016/">React in 2016</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/state-management-in-react/">State Management in React</Link></ListItem>
               <ListItem><Link href="https://presentations.survivejs.com/structuring-react-projects/">Structuring React Projects</Link></ListItem>
+              <ListItem><Link href="https://presentations.survivejs.com/advanced-webpack/">Advanced Webpack</Link></ListItem>
             </List>
           </Slide>
 
