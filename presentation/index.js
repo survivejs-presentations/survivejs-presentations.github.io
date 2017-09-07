@@ -104,6 +104,11 @@ export default class Presentation extends React.Component {
                   React Compatible Alternatives
                 </Link>
               </ListItem>
+              <ListItem>
+                <Link href="https://presentations.survivejs.com/antwar-site-generator/">
+                  Antwar - Site Generator with Webpack and React
+                </Link>
+              </ListItem>
             </List>
           </Slide>
 
