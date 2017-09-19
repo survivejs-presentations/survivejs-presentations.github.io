@@ -152,6 +152,32 @@ export default class Presentation extends React.Component {
                 </Link>
               </ListItem>
               <ListItem>
+                <Link href="http://presentations.survivejs.com/bootstrapping-a-personal-lifestyle-business/">
+                  Case SurviveJS - Bootstrapping a personal lifestyle business
+                </Link>
+              </ListItem>
+            </List>
+          </Slide>
+
+          <Slide transition={slideTransition}>
+            <Heading size={1}>Legacy Presentations</Heading>
+            <List>
+              <ListItem>
+                <Link href="https://presentations.survivejs.com/state-management-in-react/">
+                  State Management in React
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href="https://presentations.survivejs.com/structuring-react-projects/">
+                  Structuring React Projects
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href="https://presentations.survivejs.com/advanced-webpack/">
+                  Advanced Webpack
+                </Link>
+              </ListItem>
+              <ListItem>
                 <Link href="https://presentations.survivejs.com/how-to-write-a-book-and-survivejs-it/">
                   How to write a book and SurviveJS it
                 </Link>
@@ -184,21 +210,6 @@ export default class Presentation extends React.Component {
               <ListItem>
                 <Link href="https://presentations.survivejs.com/react-in-2016/">
                   React in 2016
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href="https://presentations.survivejs.com/state-management-in-react/">
-                  State Management in React
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href="https://presentations.survivejs.com/structuring-react-projects/">
-                  Structuring React Projects
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href="https://presentations.survivejs.com/advanced-webpack/">
-                  Advanced Webpack
                 </Link>
               </ListItem>
             </List>
