@@ -152,7 +152,7 @@ export default class Presentation extends React.Component {
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="http://presentations.survivejs.com/bootstrapping-a-personal-lifestyle-business/">
+                <Link href="https://presentations.survivejs.com/bootstrapping-a-personal-lifestyle-business/">
                   Case SurviveJS - Bootstrapping a personal lifestyle business
                 </Link>
               </ListItem>
