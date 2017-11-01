@@ -24,7 +24,7 @@ import {
   TableRow,
   TableHeaderItem,
   TableItem,
-  Text
+  Text,
 } from "spectacle";
 
 // Import image preloader util
@@ -41,7 +41,7 @@ require("./custom.css");
 const slideTransition = ["slide"];
 const images = mapValues(
   {
-    survivejs: require("../images/survivejs.png")
+    survivejs: require("../images/survivejs.png"),
   },
   v => v.replace("/", "")
 );
@@ -52,7 +52,7 @@ const theme = createTheme({
   primary: "white",
   secondary: "black",
   tertiary: "#09b5c4",
-  quartenary: "rgba(255, 219, 169, 0.43)"
+  quartenary: "rgba(255, 219, 169, 0.43)",
 });
 
 export default class Presentation extends React.Component {
@@ -102,6 +102,11 @@ export default class Presentation extends React.Component {
               <ListItem>
                 <Link href="https://presentations.survivejs.com/react-compatible-alternatives/">
                   React Compatible Alternatives
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href="https://presentations.survivejs.com/react-quo-vadis/">
+                  React - Quo Vadis
                 </Link>
               </ListItem>
               <ListItem>
