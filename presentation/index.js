@@ -67,7 +67,7 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={slideTransition}>
-            <Heading size={1}>React Presentations</Heading>
+            <Heading size={1}>React Presentations I</Heading>
             <List>
               <ListItem>
                 <Link href="https://presentations.survivejs.com/react-components/">
@@ -94,6 +94,13 @@ export default class Presentation extends React.Component {
                   React Performance
                 </Link>
               </ListItem>
+              </ListItem>
+            </List>
+          </Slide>
+
+          <Slide transition={slideTransition}>
+            <Heading size={1}>React Presentations II</Heading>
+            <List>
               <ListItem>
                 <Link href="https://presentations.survivejs.com/react-api-design/">
                   React API Design - Case Reactabular
