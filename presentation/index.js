@@ -94,7 +94,6 @@ export default class Presentation extends React.Component {
                   React Performance
                 </Link>
               </ListItem>
-              </ListItem>
             </List>
           </Slide>
 
