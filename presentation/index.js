@@ -158,6 +158,11 @@ export default class Presentation extends React.Component {
             <Heading size={1}>Other Presentations</Heading>
             <List>
               <ListItem>
+                <Link href="https://presentations.survivejs.com/javascript-maintenance/">
+                  JavaScript Maintenance
+                </Link>
+              </ListItem>
+              <ListItem>
                 <Link href="https://presentations.survivejs.com/javascript-in-2016/">
                   JavaScript in 2016
                 </Link>
