@@ -163,6 +163,11 @@ export default class Presentation extends React.Component {
                 </Link>
               </ListItem>
               <ListItem>
+                <Link href="https://presentations.survivejs.com/the-whys-hows-and-whats-of-npm-packaging/">
+                  The Whys, Hows, and Whats of npm Packaging
+                </Link>
+              </ListItem>
+              <ListItem>
                 <Link href="https://presentations.survivejs.com/javascript-in-2016/">
                   JavaScript in 2016
                 </Link>
