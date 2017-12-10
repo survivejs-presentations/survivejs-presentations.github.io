@@ -243,13 +243,17 @@ export default class Presentation extends React.Component {
                 <ListItem>Juho Vepsäläinen</ListItem>
               </Appear>
               <Appear>
-                <ListItem>Subcontractor gone author (est. 2015)</ListItem>
+                <ListItem>
+                  Subcontractor gone author/consultant (est. 2015)
+                </ListItem>
               </Appear>
               <Appear>
                 <ListItem>Thousands of books sold, growing community</ListItem>
               </Appear>
               <Appear>
-                <ListItem>Academic background (C, Python, JavaScript)</ListItem>
+                <ListItem>
+                  Blue Arrow Awards winner (Finnish Code Ambassador of 2017)
+                </ListItem>
               </Appear>
               <Appear>
                 <ListItem>
