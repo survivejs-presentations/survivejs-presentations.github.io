@@ -158,6 +158,12 @@ export default class Presentation extends React.Component {
             <Heading size={1}>Other Presentations</Heading>
             <List>
               <ListItem>
+                <Link href="https://presentations.survivejs.com/javascript-quo-vadis/">
+                  JavaScript - Quo Vadis?
+                </Link>{" "}
+                - A look at the state of JavaScript ecosystem (updated 2019)
+              </ListItem>
+              <ListItem>
                 <Link href="https://presentations.survivejs.com/javascript-maintenance/">
                   JavaScript Maintenance
                 </Link>
@@ -209,12 +215,6 @@ export default class Presentation extends React.Component {
           <Slide transition={slideTransition}>
             <Heading size={1}>Legacy Presentations</Heading>
             <List>
-              <ListItem>
-                <Link href="https://presentations.survivejs.com/javascript-quo-vadis/">
-                  JavaScript - Quo Vadis?
-                </Link>{" "}
-                - A look at the state of JavaScript ecosystem from early 2016
-              </ListItem>
               <ListItem>
                 <Link href="https://presentations.survivejs.com/frontend-in-2015/">
                   Frontend in 2015
